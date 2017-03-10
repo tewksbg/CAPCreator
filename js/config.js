@@ -49,12 +49,12 @@
  * @param {string} timeZone The time zone used for this installation.
  * @constructor
  */
-var CAPCreatorConfiguration = function(mapDefaultViewport,
+ var CAPCreatorConfiguration = function(mapDefaultViewport,
     defaultExpiresDurationMinutes,
     useDatetimePicker,
     timeZone) {
-  this.CAPCollectorBaseURL = "/";
-  this.CAPCollectorSubmitURL = "/post/";
+  this.CAPCollectorBaseURL = "http//104.154.160.27/";
+  this.CAPCollectorSubmitURL = "https://www.femac.us/api/alerts/";
   /* Relative path to the "img" subdirectory of OpenLayers install. */
   this.OpenLayersImgPath = "client/img/";
   this.mapDefaultViewport = mapDefaultViewport;
@@ -63,5 +63,5 @@ var CAPCreatorConfiguration = function(mapDefaultViewport,
   this.maxHeadlineLength = 140;
   this.versionID = "0.9.3";
   this.useDatetimePicker = useDatetimePicker;
-  this.timeZone = timeZone;
+  this.timeZone = "America/New_York";
 }
