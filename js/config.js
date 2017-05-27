@@ -53,7 +53,7 @@
     defaultExpiresDurationMinutes,
     useDatetimePicker,
     timeZone) {
-  this.CAPCollectorBaseURL = "http//104.154.160.27/";
+  this.CAPCollectorBaseURL = "https://tewksbg.github.io/CAPCreator/;
   this.CAPCollectorSubmitURL = "https://www.femac.us/api/alerts/";
   /* Relative path to the "img" subdirectory of OpenLayers install. */
   this.OpenLayersImgPath = "client/img/";
